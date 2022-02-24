@@ -19,10 +19,10 @@ on:
 # Environment variables are defined so that they can be used throughout the job definitions.
 # resourceGroupName，containerRegistryName，containerRegistry替换为自己的
 env:
- imageRepository: 'content-web'
- resourceGroupName: 'fabmedical-pim'
- containerRegistryName: 'fabmedicalpim'
- containerRegistry: 'fabmedicalpim.azurecr.cn'
+ imageRepository: 'fabmedicalls'
+ resourceGroupName: 'liangs10'
+ containerRegistryName: 'fabmedicalls'
+ containerRegistry: 'fabmedicalls.azurecr.cn'
  dockerfilePath: './content-web'
  tag: '${{ github.run_id  }}'
 
