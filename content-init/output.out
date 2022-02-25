@@ -241,3 +241,6 @@ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.31.jar!/:9.0.31]
 	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_292]
 
+2022-02-24 15:03:57.558  INFO 3218 --- [nio-3002-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-24 15:03:57.559  INFO 3218 --- [nio-3002-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-24 15:03:57.566  INFO 3218 --- [nio-3002-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
